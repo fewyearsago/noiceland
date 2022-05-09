@@ -459,8 +459,8 @@ hr {
     }
 }
 
-@media (max-width: 354px;) { 
-    .footer__submit{
-        top: 10px;
+@media (max-width: 354px) { 
+    .footer__submit {
+       top: 10px;
     }
 }
