@@ -389,6 +389,17 @@ hr {
     .header__inner {
         flex-wrap: wrap;
     }
+    
+    .footer__input {
+        height: 31px;
+        font-size: 10px;
+    }
+    
+    .footer__submit {
+        height: 30px;
+        bottom: 1px;
+        font-size: 7px;
+}
 
     img {
         width: 100%;
@@ -457,4 +468,5 @@ hr {
     .photography__text {
         font-size: 15px;
     }
+    
 }
