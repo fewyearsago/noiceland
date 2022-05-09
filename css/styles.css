@@ -457,5 +457,10 @@ hr {
     .photography__text {
         font-size: 15px;
     }
-    
+}
+
+@media (max-width: 354px;) { 
+    .footer__submit{
+        top: 10px;
+    }
 }
