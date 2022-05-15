@@ -13,7 +13,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Source+Serif+Pro&family=Tenor+Sans&display=swap"
     rel="stylesheet">
-  <link href="https://uploads-ssl.webflow.com/6162ccfa8e80ec9454cc7b3d/61799c0fbd8f2f7da6b46ef1_NoiceLand-Logo-32x32.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 
 <body>
@@ -23,9 +22,9 @@
         <a class="logo__link" href="#"><img class="logo__img" src="img/logo.svg" alt=""></a>
         <nav class="menu">
           <ul class="menu__list">
-            <li class="menu__list-item"><a class="menu__list-link" href="#">Home</a></li>
-            <li class="menu__list-item"><a class="menu__list-link" href="#">Latest</a></li>
-            <li class="menu__list-item"><a class="menu__list-link" href="#">About</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#photography">Home</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#posts">Latest</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#footer">About</a></li>
           </ul>
         </nav>
       </div>
@@ -45,7 +44,7 @@
   </header>
 
 
-  <section class="photography">
+  <sectio id="photography" class="photography">
     <div class="container">
       <div class="photography__box">
         <div class="photography__list">
@@ -94,7 +93,7 @@
 
   <hr>
 
-  <section class="posts">
+  <section id="posts" class="posts">
     <div class="container">
       <div class="posts__box">
         <h2 class="posts__box-title small">LATEST POSTS</h2>
@@ -197,7 +196,7 @@
   </section>
 
 
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="container">
       <div class="footer__inner">
         <a class="footer__logo" href="#"><img class="footer__logo-link" src="img/logo2.svg" alt=""></a>
@@ -299,6 +298,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="gulpfile.js"></script>
 
 </body>
 
