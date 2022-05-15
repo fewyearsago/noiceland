@@ -2,6 +2,10 @@
 font-family: 'Source Serif Pro', serif;
 font-family: 'Tenor Sans', sans-serif; */
 
+html {
+    scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -22,9 +26,10 @@ a {
 
 hr {
     border: none;
+    color: red;
     background-color: #E6E6E6;
     height: 1px;
-   }
+}
 
 .container {
     max-width: 1240px;
@@ -59,7 +64,7 @@ hr {
 
 .menu__list {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     margin-right: 23px;
 }
@@ -295,7 +300,7 @@ hr {
     height: 50px;
     background-color: #000;
     position: relative;
-    right: 2px;
+    right: 3px;
     font-family: 'Libre Franklin', sans-serif;
     color: #fff;
     font-size: 10px;
@@ -456,11 +461,5 @@ hr {
 
     .photography__text {
         font-size: 15px;
-    }
-}
-
-@media (max-width: 354px) { 
-    .footer__submit {
-       top: 10px;
     }
 }
