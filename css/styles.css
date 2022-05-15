@@ -2,14 +2,14 @@
 font-family: 'Source Serif Pro', serif;
 font-family: 'Tenor Sans', sans-serif; */
 
-html {
-    scroll-behavior: smooth;
-}
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
